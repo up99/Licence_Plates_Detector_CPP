@@ -1,0 +1,1 @@
+Usage: main.exe <input_dir> <output_dir> <model_path>
