@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include/x86_64-linux-gnu/qt5",
+                "/usr/include/x86_64-linux-gnu/qt5/QtCore",
+                "/usr/include/x86_64-linux-gnu/qt5/QtGui",
+                "/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+                "${workspaceFolder}/**",
+                "/usr/local/include/opencv4"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

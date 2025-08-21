@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Alexander\Desktop\Licence_Plates_Detector_CPP\build\CMakeFiles\ee01cbc92c9c906789630087198a96e2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E530AE84-F667-3C93-9EB0-7A4AAD6AAD47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

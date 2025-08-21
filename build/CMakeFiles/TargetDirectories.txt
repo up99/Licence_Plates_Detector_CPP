@@ -1,0 +1,3 @@
+C:/Users/Alexander/Desktop/Licence_Plates_Detector_CPP/build/CMakeFiles/main.dir
+C:/Users/Alexander/Desktop/Licence_Plates_Detector_CPP/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Alexander/Desktop/Licence_Plates_Detector_CPP/build/CMakeFiles/ZERO_CHECK.dir

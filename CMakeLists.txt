@@ -1,16 +1,25 @@
 cmake_minimum_required(VERSION 3.10)
-project(OpenCVTestProject)
+project(TestTask)
 
-# Set C++ standard
 set(CMAKE_CXX_STANDARD 17)
 
+find_package(OpenCV REQUIRED)
 # Find OpenCV
 find_package(OpenCV REQUIRED PATHS "C:/opencv/build" NO_DEFAULT_PATH)
-
-# Include OpenCV headers
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(main Main.cpp)
+include_directories(modules/inference)
+include_directories(modules/config)
+include_directories(modules/genpriors)
+include_directories(modules/postprocessing)
+include_directories(modules/visualization)
 
-# Link OpenCV libraries
+
+add_executable(main main.cpp 
+                    modules/inference/inference.cpp
+                    modules/genpriors/genpriors.cpp
+                    modules/postprocessing/postprocessing.cpp
+                    modules/visualization/visualization.cpp)
+
+
 target_link_libraries(main ${OpenCV_LIBS})
